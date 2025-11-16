@@ -42,3 +42,4 @@ if (process.env.NODE_ENV !== 'test') {
 
 module.exports = app;
 // CI trigger for Lab 6
+// trigger CI after adding secrets
