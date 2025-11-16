@@ -22,6 +22,7 @@ describe('Auth Routes', () => {
     await mongoose.connection.close();
   })
 
+
   test('POST /api/auth/signup should create a new user', async () => {
     const res = await request(app)
       .post('/api/auth/signup')
